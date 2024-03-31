@@ -41,6 +41,7 @@ function App() {
     setIsLoading(true);
     setError(false);
     setImages([]);
+    setPage(1);
   };
   const loadMore = () => {
     setPage((prevPage) => prevPage + 1);
